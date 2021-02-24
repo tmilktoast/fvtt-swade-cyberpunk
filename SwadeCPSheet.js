@@ -201,8 +201,14 @@ export default class SwadeCPSheet extends SwadeBaseActorSheet {
     
 }
 
-Actors.registerSheet("swade", SwadeCPSheet, {
-    types: ["character"],
-    makeDefault: false,
-      label: "Cyberpunk Sheet"
-}); 
+
+
+Hooks.once('init', () => {
+    console.log('Initializing SWADE Cyberpunk sheet')
+    
+    Actors.registerSheet("swade", SwadeCPSheet, {
+        types: ['character'],
+        makeDefault: false,
+        label: "Cyberpunk Sheet"
+    }); 
+})
