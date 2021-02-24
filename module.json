@@ -2,7 +2,7 @@
 	"name": "swade-cyberpunk-sheet",
 	"title": "SWADE Cyberpunk Character Sheet",
 	"description": "Replaces the default D&D 5e character sheet with an alternate layout of the main tab (including an area to list frequently used items, spells, etc), additional information in the biography tab, and a new tab for taking notes.",
-	"version": "0.0.3",
+	"version": "0.0.4",
 	"author": "tmilktost",
 	"minimumCoreVersion": "0.7.7",
 	"compatibleCoreVersion": "0.7.9",
