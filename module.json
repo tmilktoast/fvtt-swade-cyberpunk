@@ -1,0 +1,17 @@
+{
+	"name": "swade-cyberpunk-sheet",
+	"title": "SWADE Cyberpunk Character Sheet",
+	"description": "Replaces the default D&D 5e character sheet with an alternate layout of the main tab (including an area to list frequently used items, spells, etc), additional information in the biography tab, and a new tab for taking notes.",
+	"version": "0.0.1",
+	"author": "tmilktost",
+	"minimumCoreVersion": "0.7.7",
+	"compatibleCoreVersion": "0.7.9",
+	"systems": ["swade"],
+	"minimumSystemVersion": "0.16.2",
+	"esmodules": ["SwadeCPSheet.js"],
+    "packs": [],
+	"styles": [],
+	"url": "https://github.com/tmilktoast/fvtt-swade-cyberpunk",
+	"manifest": "https://raw.githubusercontent.com/tmilktoast/fvtt-swade-cyberpunkt/module.json",
+	"download": "https://github.com/tmilktoast/fvtt-swade-cyberpunk.zip"
+}
