@@ -197,5 +197,12 @@ export default class SwadeCPSheet extends SwadeBaseActorSheet {
                 equipped: !item.data.data.equipped,
             },
         };
-    }                        
+    }    
+    
 }
+
+Actors.registerSheet("swade", SwadeCPSheet, {
+    types: ["character"],
+    makeDefault: false,
+      label: "Cyberpunk Sheet"
+}); 
